@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap');
+
+/* 
+
+	Primary colors
+	primary-color: #6D5DFC;
+	primary-hover: #5B4CF2;
+
+	Background color
+	bg-color: #F8F9FC;
+
+	Card color
+	card-color: #FFFFFF;
+
+	Text colors
+	main-text-color: #1F2937;
+	second-text-color: #6B7280;
+	mute-text-color: #9CA3AF;
+
+	Status colors
+	success-color: #22C55E;
+	warning-color: #F59E0B;
+	danger-color: #EF4444;
+	info-color: #3B82F6;
+
+	Category colors
+	work-color: #3B82F6;
+	person-color: #22C55E;
+	study-color: #8B5CF6;
+	health-color: #F59E0B;
+
+	Priority color
+	low-color: #22C55E;
+	medium-color: #F59E0B;
+	height-color: #<li className="flex justify-between items-center w-full h-auto">
+                    <span className="block w-[40%]">Category</span>
+                    <span className="flex justify-start items-center gap-2.5 w-[60%]">
+                        <Briefcase size={20} color="#3B82F6" />
+                        <span>Work</span>
+                    </span>
+                </li>;
+	
+	Font size
+	title-size: 16px 600;
+	slidebar-size: 14px 500;
+	card-size: 14px 500;
+	status-num-size: 28px 700;
+	heading-greet-size: 23px 700;
+
+	Border radius
+	card-rounded: 16px;
+	button-rounded: 14px;
+	input-rounded: 12px;
+	pills-rounded: 999px;
+
+	Shadow
+	card-shadow: 0 4px 20px #0001;
+
+
+*/
+
+@font-face {
+	font-family: "PlusJakartaSans";
+	src: url("./assets/Font/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+@theme {
+  --breakpoint-xs: 27.5rem;
+}
+
+.scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
